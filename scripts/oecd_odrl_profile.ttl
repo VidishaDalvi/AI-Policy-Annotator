@@ -10,33 +10,8 @@
 
 ##SKOS Collections for Grouping related concepts.
 
-<http://www.w3.org/ns/odrl/2/#parties>
 <http://www.w3.org/ns/odrl/2/#rule>
 a skos:Collection;
-skos:prefLabel "Parties involved"@en;
-skos:member :member;
-skos:member :non-member;
-skos:member :AIactor;
-skos:member :stakeholder;
-skos:member :government;
-skos:member :countries;
-skos:member :OECD;
-skos:member :globalforum;
-skos:member :regionalforum .
-
-<http://www.w3.org/ns/odrl/2/#assets>
-a skos:Collection;
-skos:prefLabel "Assets included"@en;
-skos:member :OECDprinciples;
-skos:member :trustworthyAI;
-skos:member :AIsystems;
-skos:member :AIsystemslifecycle;
-skos:member :investment;
-skos:member :digitalecosystem;
-skos:member :datatrusts;
-skos:member :promotingmechanisms;
-skos:member :policyenvironment;
-skos:member :initiatives .
 skos:prefLabel "Rules"@en;
 skos:member :Recommendation .
 
@@ -66,10 +41,8 @@ skos:member :enhance;
 skos:member :ensure;
 skos:member :traceability;
 skos:member :equip;
-skos:member :foster;
 skos:member :develop;
 skos:member :gather;
-skos:member :give;
 skos:member :implement;
 skos:member :include;
 skos:member :invigorate;
@@ -84,7 +57,6 @@ skos:member :reduce;
 skos:member :respect;
 skos:member :review;
 skos:member :support;
-skos:member :use;
 skos:member :work-closely;
 skos:member :work-together .
 
