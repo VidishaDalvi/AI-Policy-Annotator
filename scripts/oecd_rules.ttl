@@ -1,4 +1,4 @@
-@base <http://www.oecd.com/oecd> .
+@base <http://oecd.com/> .
 @prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix odrl: 	 <http://www.w3.org/ns/odrl/2/> .
@@ -15,5 +15,5 @@ oecd: a dct:Policy .
     odrl:party oecdns:members, oecdns:non-members, oecdns:adherents;
     odrl:action oecdns:promote;
     odrl:action oecdns:implement;
-    odrl:target <http://www.oecd.com/oecd> 
+    odrl:target <http://oecd.com/oecd> 
   						];
