@@ -129,7 +129,7 @@ skos:member oecdns:AI-actors;
 ##Assets
 <http://oecd.com/odrl:profile/odrlprof#asset>
 a skos:Collection;
-skos:prefLabel "Assets"@en;
+skos:prefLabel "Asset"@en;
 skos:member oecdns:trustworthy-AI;
 skos:member oecdns:AI-systems;
 skos:member oecdns:AI-systems-lifecycle.
@@ -504,3 +504,22 @@ oecdns:AI-actors
 	rdfs:label "AI-actors"@en;
 	skos:scopeNote "Non-Normative"@en .
 
+##Assets
+
+oecdns:trustworthy-AI
+	a :Asset, skos:Concept;
+	rdfs:isDefinedBy odrlprof:;
+	rdfs:label "trustworthy-AI"@en;
+	skos:scopeNote "Non-Normative"@en .
+
+oecdns:AI-systems
+	a :Asset, skos:Concept;
+	rdfs:isDefinedBy odrlprof:;
+	rdfs:label "AI-systems"@en;
+	skos:scopeNote "Non-Normative"@en .
+
+oecdns:AI-systems-lifecycle
+	a :Asset, skos:Concept;
+	rdfs:isDefinedBy odrlprof:;
+	rdfs:label "AI-systems-lifecycle"@en;
+	skos:scopeNote "Non-Normative"@en .

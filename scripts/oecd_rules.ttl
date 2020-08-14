@@ -9,11 +9,20 @@
 
 oecd: a dct:Policy .
 
-<http://oecd.com/oecd/policy/1.1> a odrl:Policy, odrl:Set ;
+<http://oecd.com/oecd/policy/1.1> 
+	a odrl:Policy;
   	oecdns:Recommendation [
-  	
+  	a oecdns:Recommendation;
     odrl:party oecdns:members, oecdns:non-members, oecdns:adherents;
-    odrl:action oecdns:promote;
-    odrl:action oecdns:implement;
-    odrl:target <http://oecd.com/oecd> 
+    odrl:action oecdns:promote, oecdns:implement;
   						];
+  	odrl:target oecd: .
+
+<http://oecd.com/oecd/policy/1.2>
+	a odrl:Policy;
+	odrl:Duty[
+	a odrl:Duty;
+	odrl:party oecdns:AI-actors;
+	odrl:action oecdns:promote, oecdns:implement;
+	];
+	odrl:target oecd:.
