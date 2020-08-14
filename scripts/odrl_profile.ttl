@@ -59,7 +59,10 @@ skos:member oecdns:members;
 skos:member oecdns:non-members;
 skos:member oecdns:adherents;
 skos:member oecdns:stakeholders;
-skos:member oecdns:AI-actors .
+skos:member oecdns:AI-actors;
+skos:member oecdns:trustworthy-AI;
+skos:member oecdns:AI-systems;
+skos:member oecdns:AI-systems-lifecycle.
 
 
 <http://oecd.com/odrl:profile/odrlprof#rule>
