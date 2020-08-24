@@ -1,4 +1,0 @@
-function loadfunc()
-{
-  alert ("Hello");
-}
