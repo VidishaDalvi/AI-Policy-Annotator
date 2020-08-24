@@ -1,0 +1,31 @@
+@base <http://oecd.com/> .
+@prefix : <http://oecd.com/> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix odrl: 	 <http://www.w3.org/ns/odrl/2/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix odrlprof:<http://oecd.com/odrl:profile/odrlprof> .
+@prefix oecdns: <http://oecd.com/> .
+@prefix oecd:    <http://oecd.com/oecd/> .
+
+oecdns:members :promote :oecd.
+oecdns:non-members :promote :oecd.
+oecdns:adherents :promote :oecd.
+oecdns:members :implement :oecd.
+oecdns:non-members :implement :oecd.
+oecdns:adherents :implement :oecd.
+
+oecdns:AI-actors :promote :oecd.
+oecdns:AI-actors :implement :oecd.
+
+oecdns:stakeholders :augment :human-capabilities.
+oecdns:stakeholders :enhance :creativity.
+oecdns:stakeholders :advance :inclusion-of-underrepresented-population.
+oecdns:stakeholders :reduce :economic-inequalities.
+oecdns:stakeholders :reduce :social-inequalities.
+oecdns:stakeholders :reduce :gender-inequalities.
+oecdns:stakeholders :protect :natural-environments.
+oecdns:stakeholders :invigorate :growth.
+oecdns:stakeholders :invigorate :sustainable-development.
+oecdns:stakeholders :invigorate :well-being.
+
