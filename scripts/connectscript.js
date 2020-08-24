@@ -1,0 +1,4 @@
+function loadfunc()
+{
+  alert ("Hello");
+}
