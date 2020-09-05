@@ -5,14 +5,13 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix dct: <http://purl.org/dc/terms/> .
-@prefix oecdns: <http://oecd.com/> .
-@prefix odrlprof: <http://oecd.com/odrl:profile/odrlprof> .
+@prefix oecdns: <http://example.org/oecd/> .
+@prefix odrlprof: <http://example.org/oecd/odrl:profile/odrlprof> .
 
 
 ##SKOS Collections for Grouping related concepts.
 
-<http://oecd.com/odrl:profile/odrlprof>
+<http://example.org/oecd/odrl:profile/odrlprof>
 a skos:Collection ;
 skos:prefLabel "Extended ODRL Vocabulary"@en;
 skos:member :Recommendation;
@@ -66,13 +65,13 @@ skos:member oecdns:AI-systems;
 skos:member oecdns:AI-systems-lifecycle.
 
 
-<http://oecd.com/odrl:profile/odrlprof#rule>
+<http://example.org/oecd/odrl:profile/odrlprof#rule>
 a skos:Collection;
 skos:prefLabel "Rules"@en;
 skos:member oecdns:Recommendation .
 
 
-<http://oecd.com/odrl:profile/odrlprof#action>
+<http://example.org/oecd/odrl:profile/odrlprof#action>
 a skos:Collection;
 skos:prefLabel "Actions"@en;
 skos:member oecdns:access;
@@ -117,7 +116,7 @@ skos:member oecdns:work-closely;
 skos:member oecdns:work-together .
 
 ##Party
-<http://oecd.com/odrl:profile/odrlprof#party>
+<http://example.org/oecd/odrl:profile/odrlprof#party>
 a skos:Collection;
 skos:prefLabel "Party"@en;
 skos:member oecdns:members;
@@ -128,7 +127,7 @@ skos:member oecdns:AI-actors;
 .
 
 ##Assets
-<http://oecd.com/odrl:profile/odrlprof#asset>
+<http://example.org/oecd/odrl:profile/odrlprof#asset>
 a skos:Collection;
 skos:prefLabel "Asset"@en;
 skos:member oecdns:trustworthy-AI;
