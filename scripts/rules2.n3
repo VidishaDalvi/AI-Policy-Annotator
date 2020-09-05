@@ -1,12 +1,12 @@
-@base <http://oecd.com/> .
-@prefix : <http://oecd.com/> .
+@base <http://example.org/oecd/> .
+@prefix : <http://example.org/oecd/> .
 @prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix odrl: 	 <http://www.w3.org/ns/odrl/2/> .
 @prefix dct:     <http://purl.org/dc/terms/> .
-@prefix odrlprof:<http://oecd.com/odrl:profile/odrlprof> .
-@prefix oecdns: <http://oecd.com/> .
-@prefix oecd:    <http://oecd.com/oecd/> .
+@prefix odrlprof:<http://example.org/oecd/odrl:profile/odrlprof> .
+@prefix oecdns: <http://example.org/oecd/> .
+@prefix oecd:    <http://example.org/oecd/oecd> .
 
 oecdns:members :promote :oecd.
 oecdns:non-members :promote :oecd.
